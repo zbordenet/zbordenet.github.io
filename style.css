@@ -1,0 +1,295 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    padding-left: 200px;
+    width: 300px;
+    float:left;
+    padding-bottom: 8px;
+}
+
+.mission {
+    font-family: 'Dancing Script', cursive;
+    color: #262261;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 150%;
+    width: 610px;
+    margin-left: 500px;
+    padding-top: 40px;
+}
+
+ul {
+/*    width:1366px;*/
+    padding: 15px;
+    margin: 10px auto 60px auto;
+    border-top 2px;
+    border-bottom: 1px;
+    text-align: left;
+    padding-left: 460px;
+    background-image: url(images/nav_bar.jpg);
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+li {
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight:900;
+    letter-spacing: .1em;
+    color: white;
+    margin: 0px 20px;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover, li a:focus, li a:active{
+    text-decoration: underline;
+    color:azure;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #F05A26;
+    font-weight: 400;
+    font-size: 34pt;
+    margin-left: 200px;
+}
+
+h2 {
+    font-family: 'Londrina Solid', cursive;
+    text-transform: uppercase;
+    color: #262261;
+    letter-spacing: .1em;
+    margin-left: 200px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #262261;
+    letter-spacing: .1em;
+    margin-left: 200px;
+}
+
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    width: 900px;
+    margin-left: 200px;
+    line-height: 1.5em;
+}
+
+/*
+#dance1 {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 60px;
+    float: left;
+}
+
+#dance2 {
+    float:left;
+    margin-top: 60px;
+    margin-right: 60px
+}
+
+#dance3 {
+    margin-top: 120px;
+}
+*/
+
+#headshot {
+    padding-left: 200px;
+    float: left;
+    padding-right: 50px;
+/*    padding-bottom: 100px;*/
+    padding-top: 80px;
+}
+
+#about {
+    margin-top: 75px;
+}
+
+.classes {
+    background: white;
+    margin-left: 200px;
+    padding-left: 0;
+}
+
+.classes li {
+    text-align: center;
+
+}
+
+.classes li a{
+    color: #262261;
+    text-decoration: none;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+table {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 200px;
+    background-color: #CCEBF3;
+    width: 900px;
+}
+
+table tr th {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: left;
+    border-bottom: 2px solid #262261;
+    border-top: 1px solid #262261;
+    color: #262261
+}
+
+.even {
+    background-color: #BCDEE5;
+}
+
+#headshot_about {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    float: left;
+}
+
+#quote_header {
+    background-color: #D9E026;
+    width: 615px;
+    height: 317px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#quote_header p{
+    color: white;
+    width:400px;
+    text-decoration: none;
+}
+
+.quote {
+    font-weight:400;
+    margin-bottom: 0px;
+}
+
+.student {
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.class_photo1 {
+    margin-left: 200px;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#footer {
+    clear: both;
+    font-weight: 600;
+    background-color: black;
+    padding: 10px 0px 90px 0px;
+/*    width: 1366px;*/
+    margin-top: 100px;
+}
+
+#footer p{
+    color: white;
+    font-weight: 600;
+    line-height: .9em;
+}
+
+#footer p a{
+    color:white;
+    text-decoration: none;
+}
+
+#footer p  a:hover, li a:focus, li a:active{
+    color:yellow;
+}
+
+.dancer_parent {
+    float: left ;
+    width: 225px ;
+    margin-right: 80px ;
+    margin-bottom: 50px;
+}
+
+.no_right_margin {
+    margin-right: 0px ;
+}
+
+p.illustration_caption {
+    text-align: center;
+    width: 100% ;
+    margin-left: 0 ;
+    text-transform: uppercase; 
+}
+
+.illustration_caption a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #262261;
+}
+
+p.dancer_child {
+    width: 100% ;
+    margin-left: 0 ;
+}
+section.illustrations {
+/*    text-align: center;*/
+    width: 870px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.illustrations:after {
+    content: "";
+    clear: both ;
+    display: table ;
+}
+
+.testimonials {
+    margin-left: 200px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+.email a{
+    text-decoration: none;
+    color: black
+}
+
+.email a:hover, li a:focus, li a:active{
+   color: #262261; 
+}
+
+/*
+ul, div, p, section {
+    border: 1px solid red ;
+}*/
